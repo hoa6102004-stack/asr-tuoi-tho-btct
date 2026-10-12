@@ -1,0 +1,93 @@
+{
+  "version": "2026.10.12-1944",
+  "data_source": "SIMULATED",
+  "n_rows": 2640,
+  "n_mixes": 220,
+  "split": {
+    "train_mixes": 140,
+    "val_mixes": 36,
+    "test_mixes": 44,
+    "seed": 42
+  },
+  "features": [
+    "fly_ash_pct",
+    "alkali_kg_m3",
+    "reactive_agg_pct",
+    "w_b",
+    "binder_kg_m3",
+    "temp_c",
+    "rh_pct",
+    "age_days"
+  ],
+  "target": "expansion_pct",
+  "units": "% (độ giãn nở)",
+  "domain": {
+    "fly_ash_pct": [
+      0.0,
+      50.0
+    ],
+    "alkali_kg_m3": [
+      2.5018156045799693,
+      5.991767885142951
+    ],
+    "reactive_agg_pct": [
+      0.9259781821123414,
+      99.70346578375732
+    ],
+    "w_b": [
+      0.3502668662556868,
+      0.5977181195005511
+    ],
+    "binder_kg_m3": [
+      301.7234514267504,
+      499.88178507753423
+    ],
+    "temp_c": [
+      20.172231026707145,
+      59.67097903714843
+    ],
+    "rh_pct": [
+      70.0743379257107,
+      99.87009401876186
+    ],
+    "age_days": [
+      0.0,
+      730.0
+    ]
+  },
+  "best_model": "ANN (MLP)",
+  "default_ranges": {
+    "fly_ash_pct": [
+      0.0,
+      50.0
+    ],
+    "alkali_kg_m3": [
+      2.5,
+      6.0
+    ],
+    "reactive_agg_pct": [
+      0.0,
+      100.0
+    ],
+    "w_b": [
+      0.35,
+      0.6
+    ],
+    "binder_kg_m3": [
+      300.0,
+      500.0
+    ],
+    "temp_c": [
+      20.0,
+      60.0
+    ],
+    "rh_pct": [
+      70.0,
+      100.0
+    ],
+    "age_days": [
+      0.0,
+      730.0
+    ]
+  }
+}
